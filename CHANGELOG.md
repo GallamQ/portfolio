@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.2](https://github.com/GallamQ/portfolio/compare/v0.1.1...v0.1.2) (2026-08-10)
+
+### Bug Fixes
+
+* resolve high-severity vulnerabilities flagged by npm audit ([ba1c415](https://github.com/GallamQ/portfolio/commit/ba1c41596fb4a1ab5f6f4a1da87b68a67b21b3cd))
 ## [0.1.1](https://github.com/GallamQ/portfolio/compare/v0.1.0...v0.1.1) (2026-08-09)
 
 ### Bug Fixes
