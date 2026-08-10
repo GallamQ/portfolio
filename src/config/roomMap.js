@@ -3,18 +3,18 @@ export const roomMap = {
     up: 'about',
     down: 'projects',
     right: 'contact',
-    left: 'blog'
+    left: 'blog',
   },
   about: {
-    down: 'landing'
+    down: 'landing',
   },
   projects: {
-    up: 'landing'
+    up: 'landing',
   },
   contact: {
-    left: 'landing'
+    left: 'landing',
   },
   blog: {
-    right: 'landing'
-  }
+    right: 'landing',
+  },
 }
