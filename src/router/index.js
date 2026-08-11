@@ -5,6 +5,7 @@ import BlogRoom from '@/views/rooms/BlogRoom.vue'
 import ContactRoom from '@/views/rooms/ContactRoom.vue'
 import LandingRoom from '@/views/rooms/LandingRoom.vue'
 import ProjectsRoom from '@/views/rooms/ProjectsRoom.vue'
+import { useRoomStore } from '@/stores/room'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,6 +36,11 @@ const router = createRouter({
       component: BlogRoom,
     },
   ],
+})
+
+router.afterEach((to) => {
+  const roomStore = useRoomStore()
+  roomStore.enterRoom(to.name)
 })
 
 export default router
