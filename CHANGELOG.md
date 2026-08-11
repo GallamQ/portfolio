@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.3](https://github.com/GallamQ/portfolio/compare/v0.1.2...v0.1.3) (2026-08-11)
+
+### Features
+
+* add Pinia store to track current and visited rooms ([66b7daa](https://github.com/GallamQ/portfolio/commit/66b7daae6632e4ab2e761773fd6adb5127241f6c))
+* name router routes to match roomMap key ([d60fb15](https://github.com/GallamQ/portfolio/commit/d60fb1570669e2aaee8d434061c5f614ec101476))
 ## [0.1.2](https://github.com/GallamQ/portfolio/compare/v0.1.1...v0.1.2) (2026-08-10)
 
 ### Bug Fixes
