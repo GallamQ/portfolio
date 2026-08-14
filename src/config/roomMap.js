@@ -1,20 +1,20 @@
 export const roomMap = {
   landing: {
     up: 'about',
-    down: 'projects',
-    right: 'contact',
-    left: 'blog',
+    down: 'contact',
+    right: 'blog',
+    left: 'projects',
   },
   about: {
     down: 'landing',
   },
   projects: {
-    up: 'landing',
+    right: 'landing',
   },
   contact: {
-    left: 'landing',
+    up: 'landing',
   },
   blog: {
-    right: 'landing',
+    left: 'landing',
   },
 }
